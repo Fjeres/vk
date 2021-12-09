@@ -5,7 +5,7 @@ import unittest
 
 class TestUserModel(unittest.TestCase):
 
-    def test_GetAndSet(self):
+    def test_Get_And_Set(self):
         user = User()
         user.name = 'Test'
         user.last_name = 'Test'
